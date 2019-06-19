@@ -1,0 +1,2 @@
+# foodfunday
+WordPress Restaurant Theme
