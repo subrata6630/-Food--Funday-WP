@@ -20,34 +20,51 @@
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icon.png">
 
+   
     <!-- Bootstrap CSS -->
-     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css">
-    <!-- Site CSS -->
-     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css">
+ 
     <!-- Responsive CSS -->
-     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/responsive.css">
-    
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/responsive.css">
+
     <!-- Carousel -->
-    <link id="changeable-colors" rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/owl.carousel.css" />
+    <link  rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/owl.carousel.css" />
 
     <!-- Carousel theme -->
-    <link id="changeable-colors" rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/owl.theme.css" />
+    <link  rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/owl.theme.css" />
 
     <!-- Slick -->
-    <link id="changeable-colors" rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/slick.css" />
+    <link  rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/slick.css" />
 
     <!-- Animate -->
-    <link id="changeable-colors" rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/animate.min.css" />
-    
-    <!-- bootstrap-select -->
-    <link id="changeable-colors" rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap-select.min.css" />
+    <link  rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/animate.min.css" />
 
-     
+    <!-- bootstrap-select -->
+    <link  rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap-select.min.css" />
+
+    <!-- bootstrap-datetimepicker -->
+    <link  rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap-datetimepicker.css" />
+
+    <!-- flaticon -->
+    <link  rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/flaticon.css" />
+
+    <!-- font-awesome -->
+    <link  rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/font-awesome.min.css" />
+
+    <!-- normalize -->
+    <link  rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/normalize.css" />
+
+    <!-- Color CSS -->
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/colors/orange.css">
+
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
+
+
     <!-- Modernizer -->
     <script src="<?php echo get_template_directory_uri(); ?>/js/modernizer.js"></script>
 
 
-    
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
