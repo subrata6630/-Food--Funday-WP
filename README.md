@@ -1,6 +1,8 @@
 # foodfunday
 WordPress Restaurant Theme
 
+![Screenshot](screenshot.png)
+
 
 #### Theme Name: Restaurant WP Theme
 #### Author: Subrata Deb Nath
