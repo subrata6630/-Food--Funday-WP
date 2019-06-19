@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 
 <head>
 
@@ -76,7 +76,7 @@
 
 </head>
 
-<body>
+<body >
     <div id="loader">
         <div id="status"></div>
     </div>
@@ -96,12 +96,20 @@
                                 </button>
                                 <div class="logo">
                                     <a class="navbar-brand js-scroll-trigger logo-header" href="#">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="">
+                                        <?php 
+                                            $custom_logo_id = get_theme_mod( 'custom_logo' );
+                                            $image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+                                        ?>
+                                    <img src="<?php echo $image[0]; ?>" alt="">
                                     </a>
+
+   
                                 </div>
                             </div>
                             <div id="navbar" class="navbar-collapse collapse">
                                 <ul class="nav navbar-nav navbar-right">
+                               
+                                    <!--<li class="active">//<?php wp_nav_menu($args); ?></li>-->
                                     <li class="active"><a href="#banner">Home</a></li>
                                     <li><a href="#about">About us</a></li>
                                     <li><a href="#menu">Menu</a></li>

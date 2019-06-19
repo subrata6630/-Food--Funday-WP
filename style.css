@@ -45,20 +45,6 @@ This theme, like WordPress, is licensed under the GPL.
 
 
 /*------------------------------------------------------------------
-    IMPORT FILES
--------------------------------------------------------------------*/
-
-@import url(owl.theme.css);
-@import url(owl.carousel.css);
-@import url(slick.css);
-@import url(flaticon.css);
-@import url(font-awesome.min.css);
-@import url(bootstrap-datetimepicker.css);
-@import url(bootstrap-select.min.css);
-@import url(normalize.css);
-@import url(animate.min.css);
-
-/*------------------------------------------------------------------
     SKELETON
 -------------------------------------------------------------------*/
 @font-face {

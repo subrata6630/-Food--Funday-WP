@@ -79,7 +79,7 @@
                                     </div>
                                 </a>
                                 <div class="item-img">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/images/special-menu-1.jpg" alt="sp-menu">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/special-menu-1.jpg" alt="sp-menu">
                                 </div>
                             </div>
                             <div class="item item-type-zoom">
