@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
 
     <!-- Site Metas -->
-    <title>Food Funday Restaurant - One page HTML Responsive</title>
+    <title><?php wp_title( '|', true, 'right' ); ?></title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -76,7 +76,7 @@
 
 </head>
 
-<body >
+<body <?php body_class(); ?> >
     <div id="loader">
         <div id="status"></div>
     </div>
@@ -102,8 +102,6 @@
                                         ?>
                                     <img src="<?php echo $image[0]; ?>" alt="">
                                     </a>
-
-   
                                 </div>
                             </div>
                             <div id="navbar" class="navbar-collapse collapse">
